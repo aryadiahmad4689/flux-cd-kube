@@ -1,0 +1,8 @@
+flux bootstrap github \
+  --components-extra=image-reflector-controller,image-automation-controller \
+  --owner=aryadiahmad4689 \
+  --repository=flux-cd-kube \
+  --branch=master \
+  --path=clusters/k8s-development \
+  --personal \
+  --token=true
