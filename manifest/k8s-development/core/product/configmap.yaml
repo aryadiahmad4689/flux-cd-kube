@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: product
+data:
+  app_name: product-svc
+  app_version: v1.0
