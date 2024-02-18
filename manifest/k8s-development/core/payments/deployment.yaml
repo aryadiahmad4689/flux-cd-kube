@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name:  payments
-        image: nginx:alpine
+        image: goapp:latest
         resources:
           limits:
             cpu: 100m
