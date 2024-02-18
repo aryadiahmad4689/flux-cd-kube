@@ -4,3 +4,4 @@ namespace: core
 
 resources:
 - namespace.yaml
+- payments
